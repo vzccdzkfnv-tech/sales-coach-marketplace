@@ -1,0 +1,26 @@
+{
+  "name": "sales-coach-marketplace",
+  "displayName": {
+    "en": "Sales Coach Experts",
+    "zh": "销售教练专家库"
+  },
+  "description": {
+    "en": "AI-powered sales coaching experts with voice conversation support",
+    "zh": "AI 销售能力教练专家，支持语音双向对话、模拟训练、录音分析"
+  },
+  "owner": {
+    "name": "Lorne"
+  },
+  "plugins": [
+    {
+      "name": "sales-coach",
+      "source": "./plugins/sales-coach",
+      "description": {
+        "en": "Sales capability coach with voice conversation, role-play training, and recording analysis",
+        "zh": "销售专业能力教练——语音双向交流、客户模拟对练、录音逐句点评"
+      },
+      "version": "1.0.0",
+      "category": "SalesCommerce"
+    }
+  ]
+}

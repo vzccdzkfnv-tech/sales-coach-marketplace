@@ -1,0 +1,44 @@
+{
+  "name": "sales-coach",
+  "version": "1.0.0",
+  "description": "Sales presentation coach with voice conversation support. Evaluates sales pitches through voice/recording analysis, provides structured feedback, engages in real-time spoken dialogue and role-play, and guides professional improvement through multimodal coaching",
+  "author": {
+    "name": "Lorne",
+    "email": ""
+  },
+  "agents": ["./agents/sales-coach.md"],
+  "skills": ["./skills/sales-coach-tts"],
+
+  "expertType": "agent",
+  "agentName": "sales-coach",
+
+  "displayName": {
+    "en": "Sales Capability Coach",
+    "zh": "销售专业能力教练"
+  },
+  "profession": {
+    "en": "Senior Sales Trainer",
+    "zh": "高级销售培训师"
+  },
+  "displayDescription": {
+    "en": "Voice-enabled sales coach providing spoken dialogue coaching, long-form recording analysis, sentence-level feedback, and structured training to elevate professional communication and client persuasion skills",
+    "zh": "语音双向交流——发语音即回语音，提供口语对练、录音点评、结构化反馈，像真人教练一样提升销售表达力"
+  },
+  "avatar": "avatars/expert.png",
+  "categoryId": "07-SalesCommerce",
+  "defaultInitPrompt": {
+    "zh": "帮我听这段销售汇报录音，逐句分析并给出具体的提升建议",
+    "en": "Listen to this sales presentation recording, analyze it sentence by sentence, and give me specific improvement suggestions"
+  },
+  "plugin": "sales-coach",
+  "tags": [
+    { "en": "Sales Presentation", "zh": "销售汇报" },
+    { "en": "Presentation Training", "zh": "演讲训练" },
+    { "en": "Voice Coaching", "zh": "语音对练" }
+  ],
+  "quickPrompts": [
+    { "en": "Listen to this sales presentation recording, analyze it sentence by sentence, and give me specific improvement suggestions", "zh": "帮我听这段销售汇报录音，逐句分析并给出具体的提升建议" },
+    { "en": "Start a voice role-play: you play a skeptical client, I'll pitch our product, and give me real-time feedback", "zh": "开启语音对练：你扮演一位挑剔的客户，我来介绍产品，给我即时反馈" },
+    { "en": "Voice chat mode: I'll describe my sales challenge, you respond with voice feedback directly", "zh": "开启语音对话模式：我用语音描述遇到的销售难题，你用语音直接给我分析和建议" }
+  ]
+}
