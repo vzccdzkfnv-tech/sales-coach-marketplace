@@ -25,7 +25,7 @@ AI 销售能力教练专家，支持**语音双向对话、客户模拟对练、
 ### 方式一：从 GitHub 安装（推荐）
 
 ```bash
-/plugin marketplace add <github-username>/sales-coach-marketplace
+/plugin marketplace add vzccdzkfnv-tech/sales-coach-marketplace
 /plugin install sales-coach@sales-coach-marketplace
 ```
 
